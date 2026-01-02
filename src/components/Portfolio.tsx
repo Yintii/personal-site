@@ -43,7 +43,9 @@ function Portfolio(){
                     })}
                 </div>
                 <div className='project-links flex m-1'>
-                    <a className='p-1' href={project.github}>Github</a>
+                    {project.github && (
+                        <a className='p-1' href={project.github}>Github</a>
+                    )}
                     {project.liveURL && (
                         <a className='p-1' href={project.liveURL}>Live Site</a>
                     )}
