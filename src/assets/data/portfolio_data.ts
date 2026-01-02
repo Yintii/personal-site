@@ -15,7 +15,7 @@ const PROJECTS = [
         },
         {
             "name": "Yintii URL Shortener",
-            "technologies": ["Ruby on Rails", "PostgreSQL"],
+            "technologies": ["Rails", "PostgreSQL"],
             "image": yintii_img,
             "github": "https://github.com/Yintii/UrlShortener",
             "liveURL": "https://yintii.com"

@@ -7,7 +7,7 @@ function getColor(tech: string){
         case "React":
         case "Go":
             return "lightblue";
-        case "Ruby on Rails":
+        case "Rails":
             return "maroon";
         case "Typescript":
             return "blue";

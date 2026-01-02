@@ -21,7 +21,7 @@ function Hero(){
                 <li>Comptia Network+</li>
             </ul>
         </div>
-        <div className="flex column align-center">
+        <div className="flex column">
             <img className="round-corners" src={cert} />
             <a href={pdfCert}>Download PDF</a>
         </div>
