@@ -219,11 +219,17 @@ a:hover{
 }
 
 .portfolio-project img{
-    max-height: 100%;
+    max-width: 100%;;
 }
 
 .bg-black{
     background-color: black;
+}
+
+@media (max-width: 600px){
+    .portfolio-project img{
+        max-height: 100px;
+    }
 }
 
 
