@@ -53,7 +53,7 @@ function Portfolio(){
     });
 
     return(
-        <div id="portfolio" className="google-sans flex wrap align-center">
+        <div id="portfolio" className="google-sans flex wrap align-center space-around section pad-lg">
         {projects}
         </div>
     );

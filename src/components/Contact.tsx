@@ -1,6 +1,6 @@
 function Contact(){
     return(
-        <div id="contact" className="google-sans container flex column align-center section pad-lg">
+        <div id="contact" className="google-sans container flex column align-center p-2 m-2">
             <h2>Contact Me</h2>
             <p>If you'd like to get in touch, feel free to reach out via email or connect with me on LinkedIn.</p>
             <ul>
