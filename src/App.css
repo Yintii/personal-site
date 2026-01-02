@@ -1,0 +1,235 @@
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+.tiktok-sans {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
+.google-sans {
+  font-family: "Google Sans Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*FONTS*/
+
+/*Flex Container Classes*/
+
+.container{
+    padding: 1rem;
+}
+
+.container *{
+    flex:1;
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.align-end{
+    align-items: end;
+}
+
+.justify-end{
+    justify-content: end;
+}
+/*Flex Container Classes*/
+
+/*Margin and Padding classes*/
+.m-1{
+    margin:1rem;
+}
+.m-2{
+    margin:2rem;
+}
+.mx-1{
+    margin: 0 1rem;
+}
+.mx-2{
+    margin: 0 2rem;
+}
+
+.p-1{
+    padding: 1rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.px-1{
+    padding: 0 1rem;
+}
+.px-2{
+    padding: 0 2rem;
+}
+
+.round-corners{
+    border-radius: 25px;
+}
+/*Margin and Padding classes*/
+
+
+/*MAIN*/
+
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    max-width: 100dvw;
+    overflow-x: hidden;
+    color:white;
+}
+
+html{
+    background: linear-gradient(0.35turn,#e66465, #9198e5);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img{
+    max-width: 400px;
+}
+
+/*HEADER*/
+header{
+    position: absolute;
+    top:10px;
+    left:10px;
+    right:10px;
+    background-color: rgba(255,255,255,0.65);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    color:black;
+
+    animation-name: hover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+#brand{
+    font-size:24px;
+    flex:1;
+}
+nav{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+nav a:hover{
+    color:white;
+}
+
+/*HEADER*/
+
+/*SPACER*/
+.spacer{
+    margin-top:5rem;
+}
+/*SPACER*/
+
+/*HERO*/
+#hero{
+
+}
+/*HERO*/
+
+/*Portfolio Project (single)*/
+.portfolio-project{
+    background-color: rgba(255,255,255, 0.25);
+    max-width: 350px;
+    margin:1rem auto;
+}
+
+.portfolio-project img{
+    max-width:100%;
+    margin: 0 auto;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+/*Portfolio Project (single)*/
+
+h1,h2,h3{
+
+    font-weight: bold;
+
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+
+    font-size:16px;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
+#hamburger-menu>p{
+    width:25px;
+    height:2px;
+    margin-top:5px;
+}
+/*MAIN*/
+
+/*KEYFRAMES*/
+
+@keyframes hover{
+    0%{
+        top: 10px;
+    }
+    50%{
+        top:15px
+    }
+    100%{
+        top: 10px;
+    }
+}
+
+/*KEYFRAMES*/
