@@ -125,10 +125,6 @@ html{
     background-repeat: no-repeat;
 }
 
-img{
-    max-width: 100%;
-    height:auto;
-}
 
 a{
     margin: 0 1rem;
@@ -173,6 +169,11 @@ header{
     font-size:24px;
     flex:1;
 }
+
+#about img{
+    max-width:100%;
+}
+
 nav{
     position: absolute;
     top:50px;
@@ -202,7 +203,7 @@ a:hover{
 
 /*SPACER*/
 .spacer{
-    margin-top:5rem;
+    margin-top:3rem;
 }
 /*SPACER*/
 
@@ -210,6 +211,7 @@ a:hover{
 #hero{
 
 }
+
 /*HERO*/
 
 /*Portfolio Project (single)*/
@@ -219,7 +221,8 @@ a:hover{
 }
 
 .portfolio-project img{
-    max-width: 100%;;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 .bg-black{
@@ -228,7 +231,7 @@ a:hover{
 
 @media (max-width: 600px){
     .portfolio-project img{
-        max-height: 100px;
+        max-height: 170px;
     }
 }
 
