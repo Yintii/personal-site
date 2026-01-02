@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import './App.css'
 import KHHeader from './components/KHHeader'
 import Hero from './components/Hero'
