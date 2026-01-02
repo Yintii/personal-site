@@ -16,9 +16,9 @@ function KHHeader() {
           style={menuOpen ? { display: "flex" } : { display: "none" }} 
           className="column align-center column m-1 p-1"
         >
-          <a href="#about">About</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#portfolio" onClick={() => setMenuOpen(false)}>Portfolio</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
       </div>
     </header>
