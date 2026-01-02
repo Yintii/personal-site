@@ -184,8 +184,14 @@ nav{
 }
 
 nav a{
+    background-color: white;
     width:80%;
     text-align: center;
+}
+
+nav a:hover{
+    background-color: black;
+    color:white;
 }
 
 a:hover{
@@ -213,8 +219,7 @@ a:hover{
 }
 
 .portfolio-project img{
-    max-width:100%;
-    margin: 0 auto;
+    max-height: 100%;
 }
 
 .bg-black{

@@ -14,7 +14,7 @@ function KHHeader() {
         </div>
         <nav 
           style={menuOpen ? { display: "flex" } : { display: "none" }} 
-          className="column align-center bg-frosted column m-1 p-1"
+          className="column align-center column m-1 p-1"
         >
           <a href="#about">About</a>
           <a href="#portfolio">Portfolio</a>
