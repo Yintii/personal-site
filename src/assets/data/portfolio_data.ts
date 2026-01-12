@@ -4,6 +4,7 @@ import bsky_img from "../images/bsky.png";
 import tow_img from "../images/tugofwar.png";
 import pong_img from "../images/pong.png";
 import shadowboy_img from "../images/shadowboy.png";
+import starrheart_img from "../images/starrheart.png";
 
 const PROJECTS = [
         {
@@ -47,6 +48,13 @@ const PROJECTS = [
             "image": shadowboy_img,
             "github": "",
             "liveURL": "",
+        },
+        {
+            "name": "StarrHeart Vending Website - In Development",
+            "technologies": ["WordPress"],
+            "image": starrheart_img,
+            "github": "",
+            "liveURL": "https://heartvending.com",
         }
     ];
 

@@ -11,6 +11,7 @@ function Hero(){
             <ul>
                 <li>FullStack(LAMP, ROR, MERN, CLOUD)</li>
                 <li>Frontend and Mobile Development Certfication</li>
+                <li>Co-Owner of StarrHeart Vending</li>
                 <li>Game Developer in free time</li>
                 <li>Writing and Painting as a hobby</li>
             </ul>
