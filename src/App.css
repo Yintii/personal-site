@@ -1,6 +1,6 @@
-
 /*FONTS*/
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
 .tiktok-sans {
   font-family: "TikTok Sans", sans-serif;
   font-optical-sizing: auto;
@@ -22,279 +22,303 @@
 
 /*Flex Container Classes*/
 
-.container{
-    padding: 1rem;
+.container {
+  padding: 1rem;
 }
 
-.container *{
-    flex:1;
+.container * {
+  flex: 1;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
 
-.row{
-    flex-direction: row;
+.row {
+  flex-direction: row;
 }
 
-.wrap{
-    flex-wrap: wrap;
+.wrap {
+  flex-wrap: wrap;
 }
 
-.space-between{
-    justify-content: space-between;
+.space-between {
+  justify-content: space-between;
 }
 
-.space-around{
-    justify-content: space-around;
+.space-around {
+  justify-content: space-around;
 }
 
-.space-evenly{
-    justify-content: space-evenly;
+.space-evenly {
+  justify-content: space-evenly;
 }
 
-.flex-end-self{
-    justify-self: end;
+.flex-end-self {
+  justify-self: end;
 }
 
-.align-center{
-    align-items: center;
+.align-center {
+  align-items: center;
 }
 
-.align-end{
-    align-items: end;
+.align-end {
+  align-items: end;
 }
 
-.justify-end{
-    justify-content: end;
+.justify-end {
+  justify-content: end;
 }
+
 /*Flex Container Classes*/
 
 /*Margin and Padding classes*/
-.m-1{
-    margin:1rem;
-}
-.m-2{
-    margin:2rem;
-}
-.mx-1{
-    margin: 0 1rem;
-}
-.mx-2{
-    margin: 0 2rem;
+.m-1 {
+  margin: 1rem;
 }
 
-.p-1{
-    padding: 1rem;
-}
-.p-2{
-    padding: 2rem;
-}
-.px-1{
-    padding: 0 1rem;
-}
-.px-2{
-    padding: 0 2rem;
+.m-2 {
+  margin: 2rem;
 }
 
-.round-corners{
-    border-radius: 25px;
+.mx-1 {
+  margin: 0 1rem;
 }
+
+.mx-2 {
+  margin: 0 2rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.px-2 {
+  padding: 0 2rem;
+}
+
+.round-corners {
+  border-radius: 25px;
+}
+
 /*Margin and Padding classes*/
+
+
+/* Custom classes */
+.view-cert {
+  width: 150px;
+}
 
 
 /*MAIN*/
 
-html, body{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    max-width: 100dvw;
-    overflow-x: hidden;
-    color:white;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100dvw;
+  overflow-x: hidden;
+  color: white;
 }
 
-html{
-    background: linear-gradient(0.35turn,#e66465, #9198e5);
-    background-size: cover;
-    background-repeat: no-repeat;
+html {
+  background: linear-gradient(0.35turn, #e66465, #9198e5);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
-a{
-    margin: 0 1rem;
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
-    padding: 1rem;
-    margin: 0.5rem;
-    border:2px solid black;
-    border-radius: 15px;
-    align-content: center;
-    text-align: center;
+a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 2px solid black;
+  border-radius: 15px;
+  align-content: center;
+  text-align: center;
 }
 
-a:visited{
-    color:black;
+a:visited {
+  color: black;
 }
-.bg-frosted{
-    background-color: rgba(255,255,255,0.65);
-    backdrop-filter: blur(50px);
-    border-radius: 25px;
-    color:black;
+
+.bg-frosted {
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
+  color: black;
 }
 
 /*HEADER*/
-header{
-    position: fixed;
-    top:10px;
-    left:10px;
-    right:10px;
-    background-color: rgba(255,255,255,0.65);
-    backdrop-filter: blur(50px);
-    border-radius: 25px;
-    color:black;
+header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
+  color: black;
 
-    animation-name: hover;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-}
-#brand{
-    font-size:24px;
-    flex:1;
+  animation-name: hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
 }
 
-#about img{
-    max-width:100%;
+#brand {
+  font-size: 24px;
+  flex: 1;
 }
 
-nav{
-    position: absolute;
-    top:50px;
-    right:20px;
-    left: 20px;
-
-    flex: 1;
-    justify-content: space-around;
+#about img {
+  max-width: 100%;
 }
 
-nav a{
-    background-color: white;
-    width:80%;
-    text-align: center;
+nav {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  left: 20px;
+
+  flex: 1;
+  justify-content: space-around;
 }
 
-nav a:hover{
-    background-color: black;
-    color:white;
+nav a {
+  background-color: white;
+  width: 80%;
+  text-align: center;
 }
 
-a:hover{
-    background-color:white;
+nav a:hover {
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
 }
 
 /*HEADER*/
 
 /*SPACER*/
-.spacer{
-    margin-top:3rem;
+.spacer {
+  margin-top: 3rem;
 }
+
 /*SPACER*/
 
 /*HERO*/
-#hero{
-
-}
 
 /*HERO*/
 
 /*Portfolio Project (single)*/
-.portfolio-project{
-    background-color: rgba(255,255,255, 0.25);
-    max-width: 350px;
+.portfolio-project {
+  background-color: rgba(255, 255, 255, 0.25);
+  min-width: 350px;
+  height: 100%;
 }
 
-.portfolio-project img{
-    max-width: 100%;
-    border-radius: 15px;
+.portfolio-project img {
+  max-width: 100%;
+  border-radius: 15px;
 }
 
-.bg-black{
-    background-color: black;
+.bg-black {
+  background-color: black;
 }
 
-@media (max-width: 600px){
-    .portfolio-project img{
-        max-height: 170px;
-    }
+@media (max-width: 600px) {
+  .portfolio-project img {
+    max-height: 170px;
+  }
 }
 
 
 /*Portfolio Project (single)*/
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
 
-    font-weight: bold;
+  font-weight: bold;
 
 }
-h1{
-    font-size: 2rem;
-}
-h2{
-    font-size: 1.5rem;
-}
-h3{
-    font-size: 1.25rem;
+
+h1 {
+  font-size: 2rem;
 }
 
-p{
-
-    font-size:16px;
+h2 {
+  font-size: 1.5rem;
 }
 
-ul{
-    margin:0px;
-    padding: 0px;
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+
+  font-size: 16px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
 
-#hamburger-menu{
-    cursor: pointer;
-    display: grid;
-    justify-content: end;
+#hamburger-menu {
+  cursor: pointer;
+  display: grid;
+  justify-content: end;
 
-}   
-
-#hamburger-menu .menu-line{
-    width:25px;
-    height:3px;
-    background-color:black;
-    margin:3px 0;
 }
+
+#hamburger-menu .menu-line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+}
+
 /*MAIN*/
 
 /*KEYFRAMES*/
 
-@keyframes hover{
-    0%{
-        top: 10px;
-    }
-    50%{
-        top:15px
-    }
-    100%{
-        top: 10px;
-    }
+@keyframes hover {
+  0% {
+    top: 10px;
+  }
+
+  50% {
+    top: 15px
+  }
+
+  100% {
+    top: 10px;
+  }
 }
 
 /*KEYFRAMES*/

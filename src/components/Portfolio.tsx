@@ -5,18 +5,21 @@ import PROJECTS from '../assets/data/portfolio_data.ts';
 function getColor(tech: string){
     switch(tech){
         case "React":
+            return "Green";
         case "Go":
-            return "lightblue";
-        case "Rails":
+            return "black";
+        case "Ruby on Rails":
             return "maroon";
         case "Typescript":
             return "blue";
         case "PostgreSQL":
             return "purple";
         case "Godot":
-            return "darkblue";
+            return "lightblue";
         case "C#":
             return "orange";
+        case "WordPress":
+            return "Navy"
         default:
             break;
     }

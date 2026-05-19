@@ -5,6 +5,7 @@ import tow_img from "../images/tugofwar.png";
 import pong_img from "../images/pong.png";
 import shadowboy_img from "../images/shadowboy.png";
 import starrheart_img from "../images/starrheart.png";
+import kb_img from "../images/kb.png"
 
 const PROJECTS = [
         {
@@ -15,8 +16,15 @@ const PROJECTS = [
             "liveURL": "https://modular-displays.vercel.app/"
         },
         {
+            "name": "Knowledge base",
+            "technologies": ["Ruby on Rails"],
+            "image": kb_img,
+            "github": "https://github.com/Yintii/company-knowledge-base",
+            "liveURL": "/"
+        },
+        {
             "name": "Yintii URL Shortener",
-            "technologies": ["Rails", "PostgreSQL"],
+            "technologies": ["Ruby on Rails"],
             "image": yintii_img,
             "github": "https://github.com/Yintii/UrlShortener",
             "liveURL": "https://yintii.com"
@@ -47,7 +55,7 @@ const PROJECTS = [
             "technologies": ["Godot", "C#"],
             "image": shadowboy_img,
             "github": "",
-            "liveURL": "",
+            "liveURL": "https://shadowboy.keleheart.com",
         },
         {
             "name": "StarrHeart Vending Website - In Development",
